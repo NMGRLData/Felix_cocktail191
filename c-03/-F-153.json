@@ -1,0 +1,175 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 153,
+    "analysis_type": "cocktail",
+    "analyst_name": "root",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.0",
+    "comment": "1X 6.5 tuned at 6.7",
+    "commit": "f5b3c430c2f7c3043f5a400eaba5314f2ed1d215",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": -6741744638452983971,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ],
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.01175
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.104117
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.9667
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2019-07-21T08:49:57",
+                "title": "iServer Hum.",
+                "value": 41.8
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2019-07-21T00:11:08",
+                "title": "Building",
+                "value": 99.6
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2019-07-21T09:42:23",
+                "title": "Lab",
+                "value": 87.8
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2019-07-21T10:01:35",
+                "title": "Jan Decabin",
+                "value": 7.3
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2019-07-21T10:00:22",
+                "title": "iServer Temp.",
+                "value": 74.6
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2019-07-21T10:02:11",
+                "title": "Coolant",
+                "value": 15.9
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2019-07-20T13:24:41",
+                "title": null,
+                "value": 35.7118437118437
+            }
+        ]
+    },
+    "experiment_queue_name": "Air_LinearityTest",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_cocktail_x1.py",
+    "grainsize": "",
+    "identifier": "c-03-F",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Cocktail-03",
+    "irradiation_level": "A",
+    "irradiation_position": 1,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": null,
+    "lithology": null,
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": null,
+    "mass_spectrometer": "Felix",
+    "material": "Gas",
+    "measurement": "felix_analysis340_60_CDD_center.py",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Felix_cocktail191",
+    "rlocation": "",
+    "sample": "cocktail",
+    "source": {
+        "emission": 811.53,
+        "trap": 248.719
+    },
+    "spec_sha": "dd263aa6d8f54d9996a7613a68eefd46ba9cb76b",
+    "timestamp": "2019-07-21T10:06:47.413780",
+    "tripped_conditional": null,
+    "unit": null,
+    "username": "root",
+    "uuid": "5a359c16-bd6f-46da-9a48-dbd358ea6300",
+    "whiff_result": null
+}
