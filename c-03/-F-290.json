@@ -1,0 +1,161 @@
+{
+    "acquisition_software": "pychron 19.6",
+    "aliquot": 290,
+    "analysis_type": "cocktail",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.0",
+    "comment": "",
+    "commit": "cd92458611ec4c4d6204983c620fdd3e75a3836d",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": -2105023208599721769,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ],
+    "data_reduction_software": "pychron 19.6",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.01205
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1045
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.9831
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2019-12-19T07:10:20",
+                "title": "Building",
+                "value": 99.9
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2019-12-19T07:15:21",
+                "title": "Lab",
+                "value": 87.2
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2019-12-19T04:10:28",
+                "title": "iServer Temp.",
+                "value": 70.8
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2019-12-19T06:40:11",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2019-12-19T04:04:05",
+                "title": null,
+                "value": 35.6141636141636
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadD0033",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_cocktail_x1.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "c-03-F",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Cocktail-03",
+    "irradiation_level": "A",
+    "irradiation_position": 1,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": null,
+    "lithology": null,
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": null,
+    "mass_spectrometer": "felix",
+    "material": "Gas",
+    "measurement": "felix_analysis400_120.py",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Felix_cocktail191",
+    "rlocation": "",
+    "sample": "cocktail",
+    "source": {
+        "emission": 800.339,
+        "trap": 248.831
+    },
+    "spec_sha": "9839df14193423094cb9c2b3f03e4ee25da166e9",
+    "timestamp": "2019-12-19T07:18:45.755012",
+    "tripped_conditional": null,
+    "unit": null,
+    "username": "",
+    "uuid": "b93f1dc4-9228-4409-85a0-0fbacf0ea447",
+    "whiff_result": null
+}
